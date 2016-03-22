@@ -1,0 +1,139 @@
+/* This is custom css genrator from Custom scss file. */
+
+$primary-color: #d95123;
+a:focus {
+    outline: none;
+}
+
+.HomeSlider {
+    float: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.featureslider {
+    position: relative;
+}
+
+.featuredPostSlider {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    img {
+        width: 100%;
+    }
+    h2 {
+        width: 65%;
+        position: absolute;
+        left: 5%;
+        color: #fff;
+        font-size: 36px;
+    }
+}
+
+#slick-pager {
+    position: absolute;
+    right: 0;
+    width: 25%;
+    background-color: rgba(#000, 0.5);
+    float: left;
+    z-index: 9;
+    a {
+        padding: 10px 15px;
+        width: 100%;
+        float: left;
+        border-top: 1px solid rgba(#fff, 0.6);
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+        &.active {
+            background-color: $primary-color;
+        }
+        h3 {
+            font-size: 16px;
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            margin: 0 0 8px;
+        }
+        p {
+            font-family: "Lato", sans-serif;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+        span.time {
+            font-family: "Lato", sans-serif;
+            font-size: 10px;
+        }
+    }
+    .slick-list{
+    	.slick-track{
+    		.slick-slide.slick-current{
+    			background-color: $primary-color;
+    		}
+    	}
+    }
+}
+
+.slick-pager {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.pagerNavigation i {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.pagerNavigationTop {
+    color: #fff;
+    font-size: 29px;
+    text-align: center;
+    position: relative;
+    right: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.pagerNavigationBottom {
+    bottom: -30px;
+    position: absolute;
+    background-color: rgba(#000,0.5);
+    width: 100%;
+    left: 0;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 29px;
+    text-align: center;
+    border-top: 1px solid rgba(#fff,0.6);
+}
+.container{
+	position: relative;
+}
+@media (min-width: 768px) { .container { width: 750px; } }
+@media (min-width: 992px) { .container { width: 970px; } }
+@media (min-width: 1200px) { .container { width: 1170px; } }
+@media (max-width: 767px) {
+
+.slick-pager{margin: 0;}
+#slick-pager {
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    a{border-top:none; border-right: 1px solid rgba(#fff,0.6);}
+    h3 {
+    font-size: 16px;
+   
+    margin: 0 0 12px;
+	}
+}
+
+.pagerNavigation i {display:none;}
+.pagerNavigationBottom {display:none;}
+}

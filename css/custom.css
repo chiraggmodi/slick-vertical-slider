@@ -1,0 +1,67 @@
+/* This is custom css genrator from Custom scss file. */
+/* line 4, ../scss/custom.scss */
+a:focus { outline: none; }
+
+/* line 8, ../scss/custom.scss */
+.HomeSlider { float: left; display: block; width: 100%; margin-top: 20px; }
+
+/* line 15, ../scss/custom.scss */
+.featureslider { position: relative; }
+
+/* line 19, ../scss/custom.scss */
+.featuredPostSlider { float: left; width: 100%; padding: 0; margin-top: 0; margin-bottom: 0; }
+/* line 25, ../scss/custom.scss */
+.featuredPostSlider img { width: 100%; }
+/* line 28, ../scss/custom.scss */
+.featuredPostSlider h2 { width: 65%; position: absolute; left: 5%; color: #fff; font-size: 36px; }
+
+/* line 37, ../scss/custom.scss */
+#slick-pager { position: absolute; right: 0; width: 25%; background-color: rgba(0, 0, 0, 0.5); float: left; z-index: 9; }
+/* line 44, ../scss/custom.scss */
+#slick-pager a { padding: 10px 15px; width: 100%; float: left; border-top: 1px solid rgba(255, 255, 255, 0.6); color: #fff; text-decoration: none; }
+/* line 51, ../scss/custom.scss */
+#slick-pager a:hover { text-decoration: none; }
+/* line 54, ../scss/custom.scss */
+#slick-pager a.active { background-color: #d95123; }
+/* line 57, ../scss/custom.scss */
+#slick-pager a h3 { font-size: 16px; font-family: "Lato", sans-serif; font-weight: 700; margin: 0 0 8px; }
+/* line 63, ../scss/custom.scss */
+#slick-pager a p { font-family: "Lato", sans-serif; font-size: 13px; margin-bottom: 8px; }
+/* line 68, ../scss/custom.scss */
+#slick-pager a span.time { font-family: "Lato", sans-serif; font-size: 10px; }
+/* line 75, ../scss/custom.scss */
+#slick-pager .slick-list .slick-track .slick-slide.slick-current { background-color: #d95123; }
+
+/* line 82, ../scss/custom.scss */
+.slick-pager { margin-top: 30px; margin-bottom: 0; }
+
+/* line 87, ../scss/custom.scss */
+.pagerNavigation i { float: left; width: 100%; margin-top: 0px; }
+
+/* line 93, ../scss/custom.scss */
+.pagerNavigationTop { color: #fff; font-size: 29px; text-align: center; position: relative; right: 0; width: 100%; cursor: pointer; }
+
+/* line 103, ../scss/custom.scss */
+.pagerNavigationBottom { bottom: -30px; position: absolute; background-color: rgba(0, 0, 0, 0.5); width: 100%; left: 0; height: 30px; cursor: pointer; color: #fff; font-size: 29px; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.6); }
+
+/* line 116, ../scss/custom.scss */
+.container { position: relative; }
+
+@media (min-width: 768px) { /* line 119, ../scss/custom.scss */
+  .container { width: 750px; } }
+@media (min-width: 992px) { /* line 120, ../scss/custom.scss */
+  .container { width: 970px; } }
+@media (min-width: 1200px) { /* line 121, ../scss/custom.scss */
+  .container { width: 1170px; } }
+@media (max-width: 767px) { /* line 124, ../scss/custom.scss */
+  .slick-pager { margin: 0; }
+  /* line 125, ../scss/custom.scss */
+  #slick-pager { background-color: #000; width: 100%; position: relative; }
+  /* line 129, ../scss/custom.scss */
+  #slick-pager a { border-top: none; border-right: 1px solid rgba(255, 255, 255, 0.6); }
+  /* line 130, ../scss/custom.scss */
+  #slick-pager h3 { font-size: 16px; margin: 0 0 12px; }
+  /* line 137, ../scss/custom.scss */
+  .pagerNavigation i { display: none; }
+  /* line 138, ../scss/custom.scss */
+  .pagerNavigationBottom { display: none; } }
