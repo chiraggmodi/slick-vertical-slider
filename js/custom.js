@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
         fade: true,
         autoplay: true,
         adaptiveHeight: true,
-        asNavFor: '.bx-pager'
+        asNavFor: '.slick-pager'
     });
     $('.slick-pager').slick({
         slidesToShow: 4,
