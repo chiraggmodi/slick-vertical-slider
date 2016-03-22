@@ -1,4 +1,4 @@
-## slick-vertical-slider
+## Slick Vertical Slider
 I have create Slick Vertical Slider with content thumbnail. For demo go to http://chiragmodi.com/demo/slick-vertical/slider.html
 
 ## Installation
